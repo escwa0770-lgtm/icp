@@ -1,0 +1,64 @@
+
+.lang {
+  display: inline-block;
+  text-align: left;
+}
+.lang a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+	font-size: 12px;
+}
+
+.lang__list,
+.lang__option {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.lang__chevron {
+  display: none;
+}
+
+.js .lang {
+  border: solid 1px black;
+  min-width: 4rem;
+  position: fixed;
+	z-index: 9999;
+	margin-top: 17px;
+	margin-left: 17px;
+}
+.js .lang__list,
+.js .lang__option {
+  display: block;
+}
+.js .lang__chevron {
+  display: inline-block;
+  float: right;
+  transform: rotate(90deg);
+}
+.js .lang__option {
+  padding: 0.5rem;
+}
+.js .lang__option:hover, .js .lang__option:focus {
+  background-color: white;
+}
+.js .lang__list {
+  display: none;
+  list-style-type: none;
+}
+.js .is-open {
+  border-bottom: none;
+}
+.js .is-open .lang__list {
+  border: solid 1px;
+  border-top: none;
+  display: block;
+  position: absolute;
+  left: -1px;
+  width: 100%;
+}
+.js .is-open .lang__chevron {
+  transform: rotate(270deg);
+}

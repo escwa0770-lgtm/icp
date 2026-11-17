@@ -1,0 +1,308 @@
+/* CSS Document */
+
+/* 	.logo{max-width: 35%;
+background-color: #fffffff;
+margin: 30px 0px;
+padding: 30px 0px;
+overflow: hidden;
+position: relative;}
+
+.logo img {
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+}
+
+
+.logo img:hover {
+	-webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+}	
+*/
+
+.book-cover {
+	max-width: 100%;
+	margin-bottom: 0px;
+	background: url() no-repeat;
+	transition-duration: .3s, .3s;
+}.book-cover:hover {
+	
+	content: url('../sdgs-logos/book-cover/BACK-COVER.jpg');
+	transition-duration: 6s;	
+	
+}
+
+.escwa-logo-hover {
+	max-width: 100%;
+	margin-bottom: 0px;
+	overflow: hidden;
+	background: url(../sdgs-logos/hover/escwa-logo-grey.svg) no-repeat;
+	transition: all 2s ease-in-out;
+}
+.escwa-logo-hover:hover {
+	background: url(../sdgs-logos/hover/escwa-logo-color.svg) no-repeat;
+	transform: scale(1.02);
+	transition: all 2s ease-in-out;
+}
+
+.iom-logo-hover {
+	max-width: 100%;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background: url(../sdgs-logos/hover/university-of-st-andrews-grey.svg) no-repeat;
+	transition: all 2s ease-in-out;
+}
+.iom-logo-hover:hover {
+	background: url(../sdgs-logos/hover/university-of-st-andrews-color.svg) no-repeat;
+	transform: scale(1.02);
+	transition: all 2s ease-in-out;
+}
+
+
+
+
+
+
+.grey-to-color-1:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-1.svg');
+	transition-duration: 6s;
+	
+}
+.grey-to-color-2:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-2.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-3:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-3.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-4:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-4.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-5:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-5.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-6:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-6.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-7:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-7.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-8:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-8.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-9:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-9.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-10:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-10.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-11:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-11.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-12:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-12.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-13:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-13.svg');
+	transition-duration: 6s;
+}
+.grey-to-color-14:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-14.svg');
+	transition-duration: 6s;
+}
+
+.grey-to-color-15:hover {
+	content: url('../sdgs-logos/un-logos/un-logos-15.svg');
+	transition-duration: 6s;
+}
+
+.un-logos-1 {
+	background: url(../sdgs-logos/un-logos/un-logo1.svg) no-repeat;
+	transition-duration: 3s, 6s;
+	
+}
+.un-logo-1:hover {
+	background: url(../sdgs-logos/un-logos/un-logos-grey-01.svg)no-repeat;
+	transform: scale(1.01);
+	transition: transform 3s;
+}
+.note-to-reader-1 {
+	max-width: 100%;
+	margin-bottom: 0px;
+	background: url(../sdgs-logos/note-to-reader/note-to-reader-01.svg) no-repeat;
+	transition-duration: .3s, .3s;
+}
+.note-to-reader-1:hover {
+	background: url(../sdgs-logos/note-to-reader/note-to-reader-color-01.svg) no-repeat;
+	transform: scale(1.02);
+	transition: transform 1s;
+}
+.note-to-reader-2 {
+	max-width: 100%;
+	margin-bottom: 0px;
+	background: url(../sdgs-logos/note-to-reader/note-to-reader-02.svg) no-repeat;
+	transition-duration: .3s, .3s;
+}
+.note-to-reader-2:hover {
+	background: url(../sdgs-logos/note-to-reader/note-to-reader-color-02.svg) no-repeat;
+	transform: scale(1.02);
+	transition: transform 1s;
+	cursor: context-menu;
+}
+.note-to-reader-3 {
+	max-width: 100%;
+	margin-bottom: 0px;
+	background: url(../sdgs-logos/note-to-reader/note-to-reader-03.svg) no-repeat;
+	transition-duration: .3s, .3s;
+}
+.note-to-reader-3:hover {
+	background: url(../sdgs-logos/note-to-reader/note-to-reader-color-03.svg) no-repeat;
+	transform: scale(1.02);
+	transition: transform 1s;
+}
+.sdg-1-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-01.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+	
+}
+.sdg-1-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-1.svg) no-repeat;
+}
+.sdg-2-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-02.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-2-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-2.svg) no-repeat;
+}
+.sdg-3-hover {
+	transition-duration: 1s;
+	background: url(../sdgs-logos/hover/grey-sdg-03.svg) no-repeat;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-3-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-3.svg) no-repeat;
+}
+.sdg-4-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-04.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-4-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-4.svg) no-repeat;
+}
+.sdg-5-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-05.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-5-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-5.svg) no-repeat;
+}
+.sdg-6-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-06.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-6-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-6.svg) no-repeat;
+}
+.sdg-7-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-07.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-7-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-7.svg) no-repeat;
+}
+.sdg-8-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-08.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-8-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-8.svg) no-repeat;
+}
+.sdg-9-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-09.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-9-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-9.svg) no-repeat;
+}
+.sdg-10-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-10.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-10-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-10.svg) no-repeat;
+}
+.sdg-11-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-11.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-11-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-11.svg) no-repeat;
+}
+.sdg-12-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-12.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-12-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-12.svg) no-repeat;
+}
+.sdg-13-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-13.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-13-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-13.svg) no-repeat;
+}
+.sdg-14-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-14.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-14-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-14.svg) no-repeat;
+}
+.sdg-15-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-15.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-15-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-15.svg) no-repeat;
+}
+.sdg-16-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-16.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-16-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-16.svg) no-repeat;
+}
+.sdg-17-hover {
+	background: url(../sdgs-logos/hover/grey-sdg-17.svg) no-repeat;
+	transition-duration: 1s;
+	border: #FFFFFF00 solid 3px;
+}
+.sdg-17-hover:hover {
+	background: url(../sdgs-logos/hover/color-sdg-17.svg) no-repeat;
+}
