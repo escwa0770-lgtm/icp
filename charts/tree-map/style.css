@@ -1,0 +1,52 @@
+/* 🔹 Tree Map Container */
+#treemap1 {
+    width: 100%;
+    /* Full width */
+    height: 600px;
+    /* Fixed height */
+    max-width: 1200px;
+    /* Optional: Limits max width */
+    margin: 0 auto;
+    /* Centers the chart */
+
+    border-radius: 10px;
+    /* Soft rounded corners */
+    background-color: #f9f9f9;
+    /* Light background */
+}
+
+/* 🔹 Responsive Design: Adjust for smaller screens */
+@media (max-width: 768px) {
+    #treemap1 {
+        height: 500px;
+        /* Reduce height on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    #treemap1 {
+        height: 400px;
+        /* Reduce height on mobile */
+    }
+}
+
+/* 🔹 Chart Title Styling */
+.anychart-title {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #333 !important;
+}
+
+/* 🔹 Legend Styling */
+.anychart-legend {
+    font-size: 14px !important;
+    color: #555 !important;
+}
+
+/* 🔹 Tooltip Styling */
+.anychart-tooltip {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    padding: 8px !important;
+}
